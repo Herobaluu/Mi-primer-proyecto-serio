@@ -1,5 +1,8 @@
 body{
     background-color: aqua;
+    
+    justify-content: center;
+    align-items: center;
 }
 span{
     display: flex;
