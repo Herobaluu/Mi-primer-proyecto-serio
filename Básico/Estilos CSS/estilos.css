@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  
+}
+body{
+    background-color: rgb(216, 219, 221);   
+}
+/*-------- Header --------*/
+header{
+    background-color: rgb(139, 35, 236);
+    padding: 5px;
+    display: flex;
+}
+header h1{
+    text-align: left;
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    width: 80%;
+}
+header var{
+    float: right;
+    width: 20%;
+    padding: 0px;
+    padding-top: 10px;
+    padding-left: 60px;
+    text-align: right;
+    margin-right: 10px;
+}
+header var a{
+    color: white;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+header var a:hover{
+    color: rgb(153, 129, 129);
+}
+/*-------- Organización --------*/
+div{
+    display: flex;
+    flex-direction: row;
+}
